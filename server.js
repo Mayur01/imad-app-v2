@@ -10,11 +10,11 @@ var ArticleOne = {
     heading: `Falat Familial Insomnia`,
     content:`<p>
                 Carried in a gene handed down through generations, the rare disease known as fatal familial insomnia has plagued families for hundreds of years, and researchers are working to learn more about this uncommon but deadly disorder in the hopes of finding a solution.
-                The name sort of puts it all on the table. It’s a progressive, inherited condition, characterized by eventually total insomnia – leading within about nine months time to death.
+                The name sort of puts it all on the table. It’s a progressive, inherited condition, characterized by eventually total insomnia  leading within about nine months time to death.
              </p>
              
              <p>
-                Author of the book The Family That Couldn’t Sleep: A Medical Mystery, Max introduces readers to a man known only as Silvano, who fell victim to this mysterious affliction the same way many of his relatives had. Taking Max through his family tree, Silvano traced the disease’s origins to a distant relative — a Venetian doctor in the late 18th century and connected the dots to include his own father, before finally reaching himself.
+                Author of the book The Family That Couldn’t Sleep: A Medical Mystery, Max introduces readers to a man known only as Silvano, who fell victim to this mysterious affliction the same way many of his relatives had. Taking Max through his family tree, Silvano traced the disease’s origins to a distant relative  a Venetian doctor in the late 18th century and connected the dots to include his own father, before finally reaching himself.
              </p>
              
              <p>
