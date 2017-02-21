@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
- ArticleOne :{ 
+ 'article-one' :{ 
         title: `Falat Familial Insomnia | Mayur`,
         heading: `Falat Familial Insomnia`,
         content:`<p>
@@ -23,7 +23,7 @@ var articles = {
                     This protein is known as a prion, making fatal familial insomnia a prion disease, a neurodegenerative disorder that affects various regions of the brain. This particular disorder primarily affects the thalamus, the part of the brain that helps control the body’s motor systems, which include the sleeping and waking cycles, and its progression is nothing short of maddening.
                  </p>` 
     },
- ArticleTwo : {
+ 'article-two' : {
     title: `The Paradox of Behavior Change | Mayur`,
     heading: `The Paradox of Behavior Change`,
     content:`<p>
@@ -76,13 +76,13 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one', function (req, res) {
-  res.send(createTemplate(ArticleOne));
+app.get('/:articleName', function (req, res) {
+    //articleName == article-one,article-two
+    //articles[articleName] == {} content obj for articles
+    var articleName= req.param.articleName;
+  res.send(createTemplate(articles[articleName]));
 });
 
-app.get('/article-two', function (req, res){
-    res.sendFile(path.join(__dirname, 'ui','/article-two.html'));
-});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
