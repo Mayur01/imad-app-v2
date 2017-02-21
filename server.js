@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articles = {
  'article-one' :{ 
-        title: `Falat Familial Insomnia | Mayur`,
+        title: `article-one | Mayur`,
         heading: `Falat Familial Insomnia`,
         content:`<p>
                     Carried in a gene handed down through generations, the rare disease known as fatal familial insomnia has plagued families for hundreds of years, and researchers are working to learn more about this uncommon but deadly disorder in the hopes of finding a solution.
@@ -24,7 +24,7 @@ var articles = {
                  </p>` 
     },
  'article-two' : {
-    title: `The Paradox of Behavior Change | Mayur`,
+    title: `article-two | Mayur`,
     heading: `The Paradox of Behavior Change`,
     content:`<p>
                   Like your body, there are many forces and feedback loops that moderate the particular equilibrium of your habits. Your daily routines are governed by the delicate balance between your environment, your genetic potential, your tracking methods, and many other forces. As time goes on, this equilibrium becomes so normal that it becomes invisible. All of these forces are interacting each day, but we rarely notice how they shape our behaviors.
