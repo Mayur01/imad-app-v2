@@ -76,12 +76,12 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/:articleName', function (req, res) {
+//app.get('/:articleName', function (req, res) {
     //articleName == article-one,article-two
     //articles[articleName] == {} content obj for articles
-    var articleName = req.params.articleName;
-  res.send(createTemplate(articles[articleName]));
-});
+  //  var articleName = req.params.articleName;
+  //res.send(createTemplate(articles[articleName]));
+//});
 
 var counter=0;
 app.get('/counter', function (req, res) {
